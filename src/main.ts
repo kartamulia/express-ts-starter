@@ -1,9 +1,9 @@
 import express, { Application } from 'express';
 import { Config } from './config';
-import { AppRoutes } from './app-routes';
-import { ApiRoutes } from './api-routes';
-import { AccountRoutes } from './account-routes';
-import { JournalRoutes } from './journal-routes';
+import { AppRoutes } from './routes/app-routes';
+import { ApiRoutes } from './routes/api-routes';
+import { AccountRoutes } from './routes/account-routes';
+import { JournalRoutes } from './routes/journal-routes';
 
 const app: Application = express()
 

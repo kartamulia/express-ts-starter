@@ -36,3 +36,4 @@ dist
 cache/
 # Miscellaneous
 DS_Store
+.github/prompts/create-readme.prompt.md
